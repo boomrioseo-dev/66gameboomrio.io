@@ -1,0 +1,24 @@
+# Permitir todos os bots a rastrear o site principal
+User-agent: *
+Allow: /
+
+# Bloquear arquivos e pastas irrelevantes
+Disallow: /tmp/
+Disallow: /private/
+Disallow: /backup/
+Disallow: /cgi-bin/
+Disallow: /*.php$
+Disallow: /*.bak$
+Disallow: /*.old$
+
+# Evitar indexar páginas duplicadas de parâmetros
+Disallow: /*?*
+Disallow: /*&*
+
+# Permitir imagens, CSS e JS (importante para SEO)
+Allow: /*.css$
+Allow: /*.js$
+Allow: /images/
+
+# Informar o local correto do sitemap
+Sitemap: https://66game.io/sitemap.xml
