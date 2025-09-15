@@ -38,22 +38,42 @@
   <link rel="stylesheet" href="main.min.css">
 </head>
 <body>
+<div id="centered-content">
+  <h1>Welcome to 66GAME</h1>
+  <p>India's top online gaming and casino app platform. Download now and start playing!</p>
+</div>
+
 <style>
+  /* Faz o body ter a imagem de fundo */
   body {
     margin: 0;
     padding: 0;
+    height: 100vh;
     background: url('background.jpg') no-repeat center center;
     background-size: cover;
-    height: 100vh; /* ocupa a altura inteira da tela */
-    display: flex;
-    justify-content: center;  /* centraliza na horizontal */
-    align-items: center;       /* centraliza na vertical */
+  }
+
+  /* Cria uma camada para centralizar o conteúdo */
+  #centered-content {
+    position: fixed;      /* Fica fixo na tela */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Centraliza exatamente no meio */
     text-align: center;
-    color: white; /* cor do texto */
+    color: white;
+  }
+
+  #centered-content h1 {
+    font-size: 3em;
+    margin: 0 0 10px 0;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.6);
+  }
+
+  #centered-content p {
+    font-size: 1.5em;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.6);
   }
 </style>
-  <h1>Welcome to 66GAME</h1>
-  <p>India's top online gaming and casino app platform. Download now and start playing!</p>
 </body>
 </html>
 <html data-scrapbook-create="20250912171900616" data-scrapbook-source="https://66game.io/" lang="en-US"><head>
