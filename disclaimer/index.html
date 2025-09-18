@@ -213,7 +213,15 @@ flexibility(document.documentElement);
 <div class="site-header-primary-section-left site-header-section ast-flex site-header-section-left">
 <div class="ast-builder-layout-element ast-flex site-header-focus-item" data-section="title_tagline">
 <div class="site-branding ast-site-identity" itemscope="itemscope" itemtype="https://schema.org/Organization">
-<span class="site-logo-img"><a class="custom-logo-link" href="https://66game.io/" rel="home"><img alt="66g Game App" class="custom-logo" data-od-replaced-sizes="(max-width: 64px) 100vw, 64px" data-od-xpath="/HTML/BODY/DIV[@id='page']/*[1][self::HEADER]/*[1][self::DIV]/*[1][self::DIV]/*[1][self::DIV]/*[1][self::DIV]/*[1][self::DIV]/*[1][self::DIV]/*[1][self::DIV]/*[1][self::DIV]/*[1][self::SPAN]/*[1][self::A]/*[1][self::IMG]" decoding="async" height="64" sizes="(782px &lt; width) 64px, (max-width: 64px) 100vw, 64px" src="cropped-66game-Game-App-64x64.jpeg" srcset="cropped-66game-Game-App-64x64.jpeg 64w, cropped-6-Game-App-150x150.jpeg 150w, cropped-66game-Game-App.jpeg 225w" width="64"/></a></span> </div>
+<span class="site-logo-img">
+  <a class="custom-logo-link" href="https://66game.io/" rel="home">
+    <img src="cropped-66game-Game-App.jpeg" 
+         alt="66g Game App" 
+         class="custom-logo" 
+         width="64" height="64" 
+         style="max-width:64px; height:auto; display:block;">
+  </a>
+</span>
 <!-- .site-branding -->
 </div>
 </div>
@@ -326,4 +334,18 @@ document.addEventListener("DOMContentLoaded", function() {
         menuToggle.setAttribute("aria-expanded", !expanded);
     });
 });
-</script></body><iframe id="google_esf" name="google_esf" src="index_1.html" style="display: none;"></iframe></html><!-- Page cached by LiteSpeed Cache 7.5.0.1 on 2025-09-12 16:47:02 -->
+</script></body><iframe id="google_esf" name="google_esf" src="index_1.html" style="display: none;"></iframe><style>
+  .custom-logo {
+    display: block !important;
+    max-width: 64px !important;
+    height: auto !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+  }
+
+  @media (max-width: 921px) {
+    .custom-logo {
+      display: block !important;
+    }
+  }
+</style></html><!-- Page cached by LiteSpeed Cache 7.5.0.1 on 2025-09-12 16:47:02 -->
